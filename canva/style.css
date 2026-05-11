@@ -40,7 +40,7 @@ h1 {
     color: #222;
 }
 
-/* SEÇÕES */
+
 
 section {
     background: white;
@@ -56,7 +56,7 @@ section h2 {
     color: #333;
 }
 
-/* INPUTS */
+
 
 label {
     display: block;
@@ -91,7 +91,6 @@ select {
     flex: 1;
 }
 
-/* BOTÃO */
 
 button {
     width: 230px;
