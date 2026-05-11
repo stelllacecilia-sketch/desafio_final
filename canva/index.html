@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orçamento de Projetos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- LOGO -->
+        <div class="logo">
+            💼
+        </div>
+
+        <h1>ORÇAMENTO DE PROJETOS</h1>
+
+        <!-- FORMULÁRIO -->
+        <section class="formulario">
+
+            <h2>Nova Tarefa</h2>
+
+            <label>Nome da tarefa</label>
+            <input type="text" placeholder="Ex: Desenvolvimento de layout">
+
+            <div class="linha">
+
+                <div class="campo">
+                    <label>Horas estimadas</label>
+                    <input type="number" placeholder="30">
+                </div>
+
+                <div class="campo">
+                    <label>Custo por hora (R$)</label>
+                    <input type="number" placeholder="150">
+                </div>
+
+            </div>
+
+            <!-- DESCONTO -->
+            <div class="campo">
+                <label>Desconto (%)</label>
+                <input type="number" placeholder="10">
+            </div>
+
+            <!-- URGÊNCIA -->
+            <div class="campo">
+                <label>Urgência</label>
+
+                <select>
+                    <option>Sem urgência</option>
+                    <option>Com urgência (+20%)</option>
+                    <option>Muita urgência (+50%)</option>
+                </select>
+            </div>
+
+            <button>Adicionar Tarefa</button>
+
+        </section>
+
+        <!-- RESUMO -->
+        <section class="resumo">
+
+            <h2>Resumo do Orçamento</h2>
+
+            <div class="cards">
+
+                <div class="card">
+                    <p>Tarefas</p>
+                    <h3>1</h3>
+                </div>
+
+                <div class="card">
+                    <p>Total de Horas</p>
+                    <h3>30h</h3>
+                </div>
+
+                <div class="card">
+                    <p>Média/hora</p>
+                    <h3>R$ 150</h3>
+                </div>
+
+            </div>
+
+            <!-- NOVOS CAMPOS -->
+            <div class="extras">
+
+                <div class="extra-box">
+                    <p>Desconto</p>
+                    <h3>10%</h3>
+                </div>
+
+                <div class="extra-box">
+                    <p>Urgência</p>
+                    <h3>+20%</h3>
+                </div>
+
+            </div>
+
+            <div class="valor-total">
+                <p>Valor total do Projeto</p>
+                <h2>R$ 4.860,00</h2>
+            </div>
+
+        </section>
+
+        <!-- LISTA -->
+        <section class="lista">
+
+            <h2>Lista de Tarefas</h2>
+
+            <div class="tarefa">
+
+                <div class="titulo-tarefa">
+                    <span class="numero">1</span>
+                    <strong>Desenvolvimento do layout</strong>
+                </div>
+
+                <div class="info">
+                    <span>30h</span>
+                    <span>R$ 150,00/h</span>
+                    <span>= R$ 4.500,00</span>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
